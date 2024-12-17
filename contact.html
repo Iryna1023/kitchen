@@ -19,9 +19,9 @@
                     <nav class="menu__body">
                         <ul class="menu__list">
                             <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
-                            <li class="menu__item"><a href="#advantages" class="menu__link">Преимущества</a></li>
+                            <li class="menu__item"><a href="index.html#advantages" class="menu__link">Преимущества</a></li>
                             <li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
-                            <li class="menu__item"><a href="#slider" class="menu__link">Отзывы</a></li>
+                            <li class="menu__item"><a href="index.html#slider" class="menu__link">Отзывы</a></li>
                             <li class="menu__item"><a href="contact.html" class="menu__link">Контакты</a></li>
                         </ul>
                     </nav>
@@ -33,13 +33,30 @@
                 </div>
             </div>
         </div>
-        <div data-include="banner.html"></div>
-        <div data-include="adv.html"></div>
-        <div data-include="slider.html"></div>
-        <div data-include="footer.html"></div>
-        
-    </div>
-    <script async src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-    <script type="module" src="js/index.js"></script>
+<main>
+    <section class="contact-form">
+        <header>
+            <h2 class="form__h2">Контактная форма</h2>
+        </header>
+        <form id="contactForm" method="POST">
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="btn__go" type="submit">Отправить заявку</button>
+        </form>
+    </section>
+</main>
+</div>
+<script async src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+<script type="module" src="js/index.js"></script>
 </body>
 </html>

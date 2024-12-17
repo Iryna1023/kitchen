@@ -1,0 +1,125 @@
+.banner {
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+.banner__banner {
+    position: relative;
+    height: 400px;
+    background-image: url('/image/banner/bg-01.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 670px;
+    background-color: rgba(46, 32, 17, 0.7);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .banner__banner {
+        height: 60vh;
+    }
+
+    .banner-content {
+       max-width: 80%;
+       max-height: 170px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-subtitle {
+        font-size: 14px; 
+        margin: 0;
+    }
+    .btn__buy {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner__banner {
+        height: 50vh;
+    }
+
+    .banner-content {
+        width: 70%;
+      
+    }
+
+    .banner-title {
+        font-size: 15px;
+    }
+
+    .banner-subtitle {
+        font-size: 10px;
+    }
+    .btn__buy {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner__banner {
+        height: 40vh;
+    }
+
+    .banner-content {
+        width: 60%;
+       
+    }
+
+    .banner-title {
+        font-size: 11px; 
+        margin: 6px 0;
+    }
+
+    .banner-subtitle {
+        font-size: 8px;
+    }
+    .btn__buy {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .banner-content {
+        width: 60%;
+       
+    }
+
+    .banner-title {
+        font-size: 8px;
+    }
+
+    .banner-subtitle {
+        font-size: 5px;
+    }
+    .btn__buy {
+        font-size: 10px;
+    }
+}
+
+

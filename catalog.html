@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">      
+    <div class="header__header">
+        <div class="header__container container">
+            <a href="#" class="header__logo logo">Kitchen</a>
+            <div class="header__menu">
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a href="index.html#advantages" class="menu__link">Преимущества</a></li>
+                        <li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+                        <li class="menu__item"><a href="index.html#slider" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="contact.html" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="btn__link">
+                <a href="#">
+                    <button class="btn__buy">Заказать</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog__header">
+        <h1>Каталог</h1>
+    </div>
+
+    <div class="catalog container">
+        <div class="card">
+           <a href="#" class="img-ph"><img src="/image/catalog/img-01.webp" alt="Панель 1" class="card__image"></a> 
+            <div class="card__content">
+                <h3>Панель 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, accusantium omnis? Quasi incidunt vero sunt, nemo ipsum, laboriosam quaerat autem neque, pariatur quis consequuntur deleniti beatae sint dolorem doloribus excepturi!</p>
+                <button class="btn">Подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="#" class="img-ph"><img src="/image/catalog/img-02.webp" alt="Панель 2" class="card__image"></a>
+            <div class="card__content">
+                <h3>Панель 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium magnam non neque rerum atque dolores eum accusamus molestiae, ipsum aliquid quia animi voluptate inventore dolor assumenda. Provident, amet et!</p>
+                <button class="btn">Подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="#" class="img-ph"><img src="/image/catalog/img-03.webp" alt="Панель 3" class="card__image"></a>
+            <div class="card__content">
+                <h3>Панель 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quae sapiente eveniet impedit officiis tempore, culpa pariatur velit id ad enim accusantium excepturi amet quibusdam sint porro officia molestias incidunt!</p>
+                <button class="btn">Подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="#" class="img-ph"><img src="/image/catalog/img-04.webp" alt="Панель 4" class="card__image"></a>
+            <div class="card__content">
+                <h3>Панель 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minus in voluptatibus praesentium dolor? Blanditiis ad nihil cumque alias omnis, sed soluta ex debitis quisquam consectetur iste, doloribus fugit impedit!</p>
+                <button class="btn">Подробнее</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal container" id="productModal">
+        <div class="modal__content">
+            <button class="close__btn" id="closeModal">×</button>
+            <div class="modal__body">
+                <div class="left">
+                    <img src="" alt="Product Image" id="modalImage" class="main__image">
+                    <div class="thumbnail__container">
+                        <img src="" alt="Thumbnail 1" class="thumbnail" id="thumbnail1">
+                        <img src="" alt="Thumbnail 2" class="thumbnail" id="thumbnail2">
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>Скинали</h3>
+                    <p>Под заказ</p>
+                    <p>Код: sk17</p>
+                    <p>Отправка с 29 декабря 2024</p>
+                    <p>от 2 808 ₴/пог.м</p>
+                    <p><strong>Контакты:</strong> +380 (66) 000-00-00</p>
+                    <button class="btn buy__btn">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script async src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+<script type="module" src="js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
