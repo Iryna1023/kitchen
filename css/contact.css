@@ -1,4 +1,3 @@
-
 main {
     width: 100%;
     max-width: 600px;
@@ -13,13 +12,12 @@ main {
 }
 
 .contact-form {
-    background-color: #fff;
+    background-color: #f1f1f1;
     color: #2E2011B3;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .form-group {
     margin-bottom: 15px;
@@ -68,10 +66,12 @@ textarea {
     main {
         max-width: 280px; 
     }
+
     input, textarea {
         width: 90%;
         font-size: 12px;
     }
+    
     .form__h2{
       font-size: 16px;
     }

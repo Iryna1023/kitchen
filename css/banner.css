@@ -6,23 +6,28 @@
 .banner__banner {
     position: relative;
     height: 400px;
-    background-image: url('image/banner/bg-01.jpg');
+    background-image: url('/image/banner/bg-01.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     text-align: center;
+    padding-left: 10px;
 }
 
 .banner-content {
     max-width: 670px;
-    background-color: rgba(46, 32, 17, 0.7);
-    border-radius: 10px;
+    background-color: rgb(49 80 141 / 70%);
     box-sizing: border-box;
     text-align: center;
+    position: relative;
+    -webkit-box-shadow: -2px 1px 54px 30px rgba(49,80,141,1);
+    -moz-box-shadow: -2px 1px 54px 30px rgba(49,80,141,1);
+    box-shadow: -2px 1px 54px 30px rgba(49,80,141,1);
 }
+
 
 .banner-title {
     font-size: 36px;
@@ -41,7 +46,7 @@
     }
 
     .banner-content {
-       max-width: 80%;
+       max-width: 70%;
        max-height: 170px;
     }
 
@@ -54,18 +59,13 @@
         margin: 0;
     }
     .btn__buy {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 425px) {
     .banner__banner {
         height: 50vh;
-    }
-
-    .banner-content {
-        width: 70%;
-      
     }
 
     .banner-title {
@@ -85,13 +85,9 @@
         height: 40vh;
     }
 
-    .banner-content {
-        width: 60%;
-       
-    }
 
     .banner-title {
-        font-size: 11px; 
+        font-size: 12px; 
         margin: 6px 0;
     }
 
@@ -104,19 +100,6 @@
 }
 
 @media (max-width: 320px) {
-
-    .banner-content {
-        width: 60%;
-       
-    }
-
-    .banner-title {
-        font-size: 8px;
-    }
-
-    .banner-subtitle {
-        font-size: 5px;
-    }
     .btn__buy {
         font-size: 10px;
     }

@@ -62,12 +62,3 @@ window.addEventListener('resize', () => {
 
 
 
-
-
-
-
-
-
-
-
-

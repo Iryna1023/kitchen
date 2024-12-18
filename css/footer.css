@@ -1,7 +1,9 @@
 footer {
-    background-color: #333;
+    background-color:  #b9bdc9;
     color: #fff;
     font-family: Arial, sans-serif;
+    margin-top: 50px;
+    height: 135px;
 }
 
 .footer__footer {
@@ -16,14 +18,14 @@ footer {
 .social-links,
 .contact-info,
 .copyright {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .social-icon {
@@ -63,11 +65,11 @@ footer {
 
 @media (max-width: 768px) {
     .footer__footer {
-        padding: 20px;
+        padding: 10px;
     }
 
     .social-links {
-        gap: 8px;
+        gap: 5px;
     }
 
     .social-icon {
@@ -88,10 +90,6 @@ footer {
     .copyright p {
         font-size: 12px;
     }
+
 }
 
-@media (max-width: 768px) {
-    .social-links {
-        gap: 5px;
-    }
-}
