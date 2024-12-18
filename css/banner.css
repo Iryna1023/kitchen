@@ -6,7 +6,7 @@
 .banner__banner {
     position: relative;
     height: 400px;
-    background-image: url('/image/banner/bg-01.webp');
+    background-image: url('/image/banner/bg-01.jpg');
     background-size: cover;
     background-position: center;
     color: white;
