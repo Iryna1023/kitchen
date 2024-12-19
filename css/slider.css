@@ -1,8 +1,11 @@
-.slider__header{
+.slider__header h1{
   color: #fff;
   margin: 0 auto;
   margin-top: 50px;
   font-size: 11px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .slider {
@@ -11,7 +14,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 250px;
+  min-height: 250px;
   overflow: hidden;
   margin: 0 auto;
   margin-bottom: 50px;

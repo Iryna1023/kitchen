@@ -60,5 +60,28 @@ window.addEventListener('resize', () => {
   moveToSlide(currentSlide);
 });
 
+let touchStartX = 0;
+let touchEndX = 0;
+
+function handleTouchStart(e) {
+  touchStartX = e.touches[0].clientX;
+}
+
+function handleTouchMove(e) {
+  touchEndX = e.touches[0].clientX;
+}
+
+function handleTouchEnd() {
+  if (touchStartX - touchEndX > 50) {
+    nextSlide();
+  } else if (touchEndX - touchStartX > 50) {
+    prevSlide();
+  }
+}
+
+slides.addEventListener('touchstart', handleTouchStart);
+slides.addEventListener('touchmove', handleTouchMove);
+slides.addEventListener('touchend', handleTouchEnd);
+
 
 

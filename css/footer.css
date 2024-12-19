@@ -3,7 +3,7 @@ footer {
     color: #fff;
     font-family: Arial, sans-serif;
     margin-top: 50px;
-    height: 135px;
+    min-height: 135px;
 }
 
 .footer__container {
