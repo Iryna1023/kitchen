@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="image/catalog/img-03.webp" type="image/x-icon">
@@ -76,8 +76,8 @@
 
     <div class="modal container" id="productModal">
         <div class="modal__content">
-            <button class="close__btn" id="closeModal">×</button>
             <div class="modal__body">
+                <button class="close__btn" id="closeModal">×</button> <!-- Кнопка закриття тут -->
                 <div class="left">
                     <img src="" alt="Product Image" id="modalImage" class="main__image">
                     <div class="thumbnail__container">
@@ -97,10 +97,11 @@
             </div>
         </div>
     </div>
+    
     <div data-include="footer.html"></div>
 </div>
 
-<script async src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+<script defer src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 <script type="module" src="js/index.js"></script>
 
 </body>

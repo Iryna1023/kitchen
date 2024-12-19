@@ -1,4 +1,4 @@
-.advantages {
+.advantages__container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -6,6 +6,7 @@
     background-color: #cfcfcf;
     border-radius: 10px;
     box-sizing: border-box;
+    width: 100%;
   }
   
   .adv-item {
@@ -45,7 +46,7 @@
   }
   
   @media (max-width: 1024px) {
-    .advantages {
+    .advantages__container {
       padding: 0;
     }
     
@@ -66,7 +67,7 @@
   }
   
   @media (max-width: 425px) {
-    .advantages {
+    .advantages__container {
       justify-content: center;
     }
   
@@ -91,7 +92,7 @@
   }
   
   @media (max-width: 375px) {
-    .advantages {
+    .advantages__container {
       padding: 5px;
     }
   
