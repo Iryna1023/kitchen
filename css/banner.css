@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+    .banner {
+        margin-top: 75px;
+        
+    }
     .banner__container {
         height: 60vh;
     }

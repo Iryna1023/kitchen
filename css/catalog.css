@@ -1,6 +1,8 @@
-.catalog__header {
+.catalog__header h1 {
     color: #fff;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .catalog {
@@ -159,8 +161,8 @@
 }
 
 @media (max-width: 768px) {
-    .catalog__header {
-        padding-top: 50px;
+    .catalog__header h1{
+        padding-top: 70px;
     }
 
     .card {

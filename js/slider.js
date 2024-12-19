@@ -79,9 +79,15 @@ function handleTouchEnd() {
   }
 }
 
-slides.addEventListener('touchstart', handleTouchStart);
-slides.addEventListener('touchmove', handleTouchMove);
-slides.addEventListener('touchend', handleTouchEnd);
+const sliderElement = document.querySelector('.slider__slider');
+if (sliderElement) {
+  sliderElement.addEventListener('touchstart', handleTouchStart);
+  sliderElement.addEventListener('touchmove', handleTouchMove);
+  sliderElement.addEventListener('touchend', handleTouchEnd);
+} else {
+  console.error('Елемент .slider__slider не знайдено!');
+}
+
 
 
 

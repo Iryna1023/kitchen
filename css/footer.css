@@ -35,14 +35,10 @@ footer {
     width: 40px;
     height: 40px;
     font-size: 18px;
-  
-
     border-radius: 50%;
     text-decoration: none;
     transition: background-color 0.3s;
 }
-
-
 
 .social-icon img {
     width: 22px;
@@ -60,7 +56,6 @@ footer {
 
 .copyright {
     font-size: 14px;
-    color: #bbb;
 }
 
 @media (max-width: 768px) {
@@ -73,9 +68,10 @@ footer {
     }
 
     .social-icon {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         font-size: 24px;
+        padding: 5px;
     }
 
     .social-icon img {
